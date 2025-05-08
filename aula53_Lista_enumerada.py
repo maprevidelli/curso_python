@@ -14,7 +14,7 @@ for item in enumerate(lista):
      indice, nome = item
      print(indice, nome)
 
-s
+
 # for tupla_enumerada in enumerate(lista):
 #     print('FOR da tupla:')
 #     for valor in tupla_enumerada:
