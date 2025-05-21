@@ -1,5 +1,5 @@
 ## 1. Usando Matplotlib para visualização
-
+import sys
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle, Circle, Polygon
 
@@ -7,15 +7,15 @@ from matplotlib.patches import Rectangle, Circle, Polygon
 fig, ax = plt.subplots()
 
 # Retângulo
-retangulo = Rectangle((1, 1), 3, 2, fill=False, edgecolor='blue')
+retangulo = Rectangle((0, 0), 3, 2, fill=True, edgecolor='blue')
 ax.add_patch(retangulo)
 
 # Círculo
-circulo = Circle((5, 3), 1.5, fill=False, edgecolor='red')
+circulo = Circle((5, 3), 1.5, fill=True, edgecolor='red')
 ax.add_patch(circulo)
 
 # Triângulo (polígono)
-triangulo = Polygon([[3, 5], [4, 7], [5, 5]], closed=True, fill=False, edgecolor='green')
+triangulo = Polygon([[3, 5], [4, 7], [5, 5]], closed=True, fill=True, edgecolor='green')
 ax.add_patch(triangulo)
 
 # Configurar limites e aspecto
@@ -29,7 +29,7 @@ plt.show()
 
 
 ## 2. Usando Turtle Graphics para desenho interativo
-
+sys.exit()
 import turtle
 
 # Configuração inicial
