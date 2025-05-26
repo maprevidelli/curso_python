@@ -13,4 +13,7 @@ print('Confira as informações digitadas')
 for chave in dicionario:
     print(f'{chave}: {dicionario[chave]}')
 
+from datetime import datetime
 
+data_atual = datetime.now()
+print("Data e hora atuais:", data_atual)
