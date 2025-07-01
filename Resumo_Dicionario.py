@@ -6,9 +6,11 @@ dicionario = {}
 for chave in lista:
     valor = input(f'Entre com a informação ({chave}): ')
     dicionario[chave] = valor
+print('='*10)    
 print('Cadastro efetuado!')
-print('='*100)
+print('='*10)
 print('Confira as informações digitadas')
+print()
 
 for chave in dicionario:
     print(f'{chave}: {dicionario[chave]}')
